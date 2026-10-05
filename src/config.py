@@ -54,8 +54,8 @@ class Settings:
 def get_settings() -> Settings:
     return Settings(
         groq_api_key=_get("GROQ_API_KEY"),
-        groq_model=_get("GROQ_MODEL", "groq/llama-3.3-70b-versatile"),
-        groq_fast_model=_get("GROQ_FAST_MODEL", "groq/llama-3.1-8b-instant"),
+        groq_model=_get("GROQ_MODEL", "openai/gpt-oss-20b"),
+        groq_fast_model=_get("GROQ_FAST_MODEL", "openai/gpt-oss-20b"),
         github_token=_get("GITHUB_TOKEN"),
         site_repo=_get("SITE_REPO"),
         site_branch=_get("SITE_BRANCH", "main"),
