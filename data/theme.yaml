@@ -1,0 +1,5 @@
+# Premium theme settings (edit in the app: "Theme" page).
+enabled: true
+palette: solar_green        # solar_green | midnight_amber | clean_teal
+font: system                # system | elegant
+extra_css: ""               # optional AI/manual CSS; every selector must contain "kg-premium"

@@ -1,0 +1,123 @@
+# Default page plan = the URL structure from the SEO roadmap. Edit in the app (Keyword Map page) or here.
+# Titles <= ~60 chars, meta descriptions 70-160 chars. No unproven claims ("best", "certified", "#1", prices...).
+pages:
+  - slug: "uae/"
+    market: UAE
+    service: "UAE hub"
+    primary_keyword: "solar company UAE"
+    secondary_keywords: ["renewable energy solutions UAE", "solar Dubai"]
+    title: "Solar & Energy Services in the UAE | Kunergy"
+    meta_description: "Solar PV, battery storage, EV charging and electrical services in Dubai and across the UAE from Kunergy Solar Energy System Installations Co. L.L.C."
+    h1: "Solar & Energy Services in the UAE"
+  - slug: "pakistan/"
+    market: PK
+    service: "Pakistan hub"
+    primary_keyword: "solar company Pakistan"
+    secondary_keywords: ["renewable energy solutions Pakistan", "solar Lahore"]
+    title: "Solar & Energy Services in Pakistan | Kunergy"
+    meta_description: "Solar PV and electrical services in Lahore and across Pakistan from Kunergy International Pvt. Ltd. Request a quote for your home, business or industry."
+    h1: "Solar & Energy Services in Pakistan"
+  - slug: "uae/solar-installation-dubai/"
+    market: UAE
+    service: "Solar PV EPC"
+    primary_keyword: "solar panel installation Dubai"
+    secondary_keywords: ["solar installation UAE", "solar PV system Dubai", "solar EPC Dubai"]
+    title: "Solar Panel Installation Dubai & UAE | Kunergy Solar"
+    meta_description: "Kunergy designs, supplies and installs solar PV systems in Dubai and across the UAE for homes, businesses and industry. Request a quote today."
+    h1: "Solar Panel Installation in Dubai & the UAE"
+    parent: "uae/"
+  - slug: "uae/commercial-industrial-solar/"
+    market: UAE
+    service: "Commercial & industrial solar EPC"
+    primary_keyword: "commercial solar EPC UAE"
+    secondary_keywords: ["industrial rooftop solar UAE", "commercial solar Dubai", "solar for warehouses UAE"]
+    title: "Commercial & Industrial Solar EPC UAE | Kunergy"
+    meta_description: "Solar PV engineering, procurement and construction (EPC) for commercial and industrial buildings in the UAE. Talk to Kunergy about your project."
+    h1: "Commercial & Industrial Solar EPC in the UAE"
+    parent: "uae/"
+  - slug: "uae/residential-solar/"
+    market: UAE
+    service: "Residential solar"
+    primary_keyword: "residential solar Dubai"
+    secondary_keywords: ["villa solar panels Dubai", "home solar UAE"]
+    title: "Residential Solar Systems in Dubai & UAE | Kunergy"
+    meta_description: "Solar PV systems for villas and homes in Dubai and the UAE, designed and installed by Kunergy. Request a quote to start your project."
+    h1: "Residential Solar Systems in Dubai & the UAE"
+    parent: "uae/"
+  - slug: "uae/solar-battery-storage-bess/"
+    market: UAE
+    service: "Solar + BESS"
+    primary_keyword: "solar battery storage Dubai"
+    secondary_keywords: ["BESS UAE", "battery energy storage system UAE"]
+    title: "Solar Battery Storage (BESS) in the UAE | Kunergy"
+    meta_description: "Solar PV with battery energy storage (BESS) for homes, businesses and industry in the UAE. Ask Kunergy about a system designed for your site."
+    h1: "Solar Battery Energy Storage (BESS) in the UAE"
+    parent: "uae/"
+  - slug: "uae/ev-charging-solutions/"
+    market: UAE
+    service: "EV charging"
+    primary_keyword: "EV charger installation Dubai"
+    secondary_keywords: ["EV charging solutions UAE", "commercial EV charging UAE", "home EV charger Dubai"]
+    title: "EV Charger Installation in Dubai & UAE | Kunergy"
+    meta_description: "EV charging solutions for homes, businesses and industrial sites in the UAE, including installation and maintenance. Request a quote from Kunergy."
+    h1: "EV Charger Installation in Dubai & the UAE"
+    parent: "uae/"
+  - slug: "uae/solar-om-maintenance/"
+    market: UAE
+    service: "Solar O&M and maintenance"
+    primary_keyword: "solar O&M services UAE"
+    secondary_keywords: ["solar plant maintenance UAE", "building electrical and AC maintenance Dubai"]
+    title: "Solar PV O&M and Maintenance in the UAE | Kunergy"
+    meta_description: "Operation and maintenance for solar PV plants, building electrical and AC systems, and EV charging stations in the UAE. Contact Kunergy."
+    h1: "Solar PV Operation & Maintenance in the UAE"
+    parent: "uae/"
+  - slug: "pakistan/solar-installation-lahore/"
+    market: PK
+    service: "Solar PV EPC"
+    primary_keyword: "solar panel installation Lahore"
+    secondary_keywords: ["solar installation Pakistan", "solar EPC Pakistan", "solar company Lahore"]
+    title: "Solar Panel Installation Lahore & Pakistan | Kunergy"
+    meta_description: "Kunergy designs and installs solar PV systems in Lahore and across Pakistan for homes, businesses and industry. Request a quote today."
+    h1: "Solar Panel Installation in Lahore & Pakistan"
+    parent: "pakistan/"
+  - slug: "pakistan/commercial-industrial-solar/"
+    market: PK
+    service: "Commercial & industrial solar EPC"
+    primary_keyword: "commercial solar Pakistan"
+    secondary_keywords: ["industrial solar Lahore", "solar for factories Pakistan"]
+    title: "Commercial & Industrial Solar in Pakistan | Kunergy"
+    meta_description: "Solar PV engineering, procurement and construction for commercial and industrial sites in Pakistan. Talk to Kunergy about your project."
+    h1: "Commercial & Industrial Solar in Pakistan"
+    parent: "pakistan/"
+  - slug: "services/electrical-contracting/"
+    market: GLOBAL
+    service: "Electrical fitting contracting"
+    primary_keyword: "electrical contracting company"
+    secondary_keywords: ["electromechanical equipment installation", "electrical fitting contractor"]
+    title: "Electrical Fitting Contracting | Kunergy UAE & Pakistan"
+    meta_description: "Electrical fitting contracting and electromechanical equipment installation for buildings and projects. Request a quote from Kunergy."
+    h1: "Electrical Fitting Contracting"
+  - slug: "services/hvac-ventilation-air-filtration/"
+    market: GLOBAL
+    service: "AC, ventilation & air filtration"
+    primary_keyword: "air conditioning ventilation air filtration systems"
+    secondary_keywords: ["AC installation and maintenance", "ventilation systems contractor"]
+    title: "AC, Ventilation & Air Filtration Systems | Kunergy"
+    meta_description: "Air conditioning, ventilation and air filtration systems installation and maintenance for buildings. Request a quote from Kunergy."
+    h1: "AC, Ventilation & Air Filtration Systems"
+  - slug: "services/solar-feasibility-engineering-consultancy/"
+    market: GLOBAL
+    service: "Solar consultancy"
+    primary_keyword: "solar PV feasibility study"
+    secondary_keywords: ["solar engineering design", "solar project management"]
+    title: "Solar PV Feasibility, Design & Project Management | Kunergy"
+    meta_description: "Solar PV feasibility studies, engineering design and project management consultancy from Kunergy. Get expert support for your solar project."
+    h1: "Solar PV Feasibility, Design & Project Management"
+  - slug: "services/solar-street-lights/"
+    market: GLOBAL
+    service: "Solar street lights"
+    primary_keyword: "solar street lights"
+    secondary_keywords: ["solar street light solutions", "solar lighting for roads"]
+    title: "Solar Street Lights Solutions | Kunergy"
+    meta_description: "Solar PV street light solutions for roads, communities and commercial sites from Kunergy. Request a quote for your project."
+    h1: "Solar Street Lights Solutions"

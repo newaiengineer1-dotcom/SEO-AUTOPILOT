@@ -1,0 +1,105 @@
+# =====================================================================
+# facts.yaml  -  SINGLE SOURCE OF TRUTH for every claim the system may publish.
+# The AI writers may use ONLY what is in this file. Anything you leave empty/null
+# will NOT be claimed. Fill in real, provable facts (and keep them current).
+# Everything below marked "from kunergy.com" was taken from the live website.
+# =====================================================================
+company:
+  brand: Kunergy
+  tagline: Energy for Life!            # from kunergy.com
+  founded: 2014                        # from kunergy.com ("founded in 2014")
+  website: https://www.kunergy.com
+  description: >-
+    One-stop shop for renewable energy solutions, electrical fittings contracting, technical services
+    and project management consultancy, serving residential, commercial, industrial and utility sectors.
+
+entities:                              # from kunergy.com contact section
+  - key: uae
+    legal_name: "Kunergy Solar Energy System Installations Co. L.L.C."
+    street: "0301, Bayan Business Center, DIP 1"
+    locality: Dubai
+    region: Dubai
+    country: United Arab Emirates
+    country_code: AE
+    phone: "+971 50 4254087"
+    email: info@kunergy.com
+    whatsapp: null                     # e.g. "+971504254087" ONLY if this number is on WhatsApp
+    hub_path: "uae/"
+  - key: pk
+    legal_name: "Kunergy International Pvt. Ltd."
+    street: "E-7-1-B, Al Noor Town, Lahore Cantt"
+    locality: Lahore
+    region: Punjab
+    country: Pakistan
+    country_code: PK
+    phone: "+92 300 1950006"
+    phones: ["+92 300 1950006", "+92 332 1335540"]
+    email: info@kunergy.com
+    whatsapp: null
+    hub_path: "pakistan/"
+
+social:
+  linkedin: https://pk.linkedin.com/company/Kunergy
+  facebook: https://www.facebook.com/kunergy/
+  instagram: https://www.instagram.com/kunergy/
+
+services:                              # from kunergy.com
+  - {category: Renewable Energy Solutions, name: "Solar PV Design, Engineering, Procurement and Construction (EPC) for residential, commercial, industrial and utility"}
+  - {category: Renewable Energy Solutions, name: "Solar PV Battery Energy Storage System (BESS)"}
+  - {category: Renewable Energy Solutions, name: "Solar PV Street Lights Solutions"}
+  - {category: Electrical & Mechanical Solutions, name: "Electrical Fitting Contracting"}
+  - {category: Electrical & Mechanical Solutions, name: "Air Conditioning, Ventilations & Air Filtration Systems"}
+  - {category: Electrical & Mechanical Solutions, name: "Electromechanical Equipment Installation"}
+  - {category: E-Mobility Solutions, name: "Electric Vehicle (EV) Charging Solutions for residential, commercial and industrial"}
+  - {category: Asset Management, name: "Solar PV Plant Operation and Maintenance"}
+  - {category: Asset Management, name: "Buildings Electrical and Air Conditioning Maintenance"}
+  - {category: Asset Management, name: "Electric Vehicle Charging Station Maintenance"}
+  - {category: Consultancy Services, name: "Solar PV Feasibility Study"}
+  - {category: Consultancy Services, name: "Solar PV Engineering Design"}
+  - {category: Consultancy Services, name: "Solar PV Project Management"}
+
+# ---------------- PROOF: fill these in with REAL data (empty = never claimed) ----------------
+proof:
+  projects_completed: null             # e.g. 120
+  installed_capacity: null             # e.g. "15 MW"
+  projects: []                         # [{name, location, type, size, year, summary, photo}]
+  testimonials: []                     # [{quote, name, role, company}]  (only with permission)
+  certifications: []                   # e.g. ["ISO 9001"]
+  licences: []                         # e.g. ["DEWA-approved contractor"]  (only if true)
+  awards: []
+  partner_brands: []                   # panel / inverter / battery brands you really install
+
+# Extra exact claims you allow writers to use, e.g. "Request a quote" style CTAs or "5-year workmanship warranty".
+allowed_claims: []
+
+# Used by the patcher on the home page (high-risk change: reviewed in Approvals).
+home_seo:
+  title: "Solar, EV Charging & Electrical Solutions | Kunergy"
+  meta_description: "Kunergy provides solar PV, battery storage, EV charging, electrical and AC services for homes, businesses and industry in the UAE and Pakistan."
+  h1: "Solar Energy, EV Charging & Electrical Solutions in the UAE and Pakistan"
+
+# Alt-text rules for images that have NO alt attribute. exact = file stem (lowercase), contains = substring.
+# "{brand}" is replaced. Anything unmatched with a generic name becomes decorative (alt="") and is reported.
+alt_text_rules:
+  exact:
+    res: "Renewable energy solutions"
+    efc: "Electrical and mechanical solutions"
+    em: "E-mobility and EV charging solutions"
+    am: "Asset management, operation and maintenance"
+    pmc: "Solar PV consultancy services"
+    mission: "Our mission"
+    vision: "Our vision"
+    values: "Our values"
+    customer: "Customers first"
+    integrity: "Integrity"
+    innovation: "Innovation"
+    teamwork: "Teamwork"
+    quality: "Quality"
+  contains:
+    logo: "{brand} logo"
+    linkedin: "{brand} on LinkedIn"
+    facebook: "{brand} on Facebook"
+    instagram: "{brand} on Instagram"
+    instagarm: "{brand} on Instagram"
+    united-arab-emirates: "United Arab Emirates flag"
+    pakistan: "Pakistan flag"
