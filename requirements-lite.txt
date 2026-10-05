@@ -1,0 +1,7 @@
+# Everything except CrewAI. Engines "offline" and "direct" (Groq REST) work with this.
+streamlit>=1.40
+requests>=2.31
+beautifulsoup4>=4.12
+PyYAML>=6.0
+python-dotenv>=1.0
+PyGithub>=2.3
